@@ -1,0 +1,17 @@
+{
+    "name": "lenovo/visitor_registration",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\VisitorRegistration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "technotym"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^3.1",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
