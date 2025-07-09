@@ -15,25 +15,6 @@ A complete PHP-based Visitor Registration System for securely collecting and man
   - Dashboard showing all visitor entries
   - Downloadable PDF for each visitor
 
-## 🗂️ Folder Structure
-
-lavanya/
-├── index.html # Visitor registration form
-├── upload.php # Handles form submission, uploads, and PDF generation
-├── admin/
-│ ├── login.php # Admin login page
-│ ├── dashboard.php # Admin dashboard with user data
-│ ├── logout.php # Admin logout script
-├── db/
-│ └── config.php # Database connection file
-├── pdfs/ # Generated PDF files (saved here)
-├── imgs/ # Uploaded images from form
-├── assets/ # CSS, JS, and frontend assets
-
-markdown
-Copy
-Edit
-
 ## ⚙️ Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript (Canvas)
@@ -61,11 +42,6 @@ bash
 Copy
 Edit
 chmod -R 755 pdfs imgs
-Access the app
-
-Visit http://localhost/lavanya/index.html for the registration form
-
-Admin login at http://localhost/lavanya/admin/login.php
 
 🔐 Default Admin Credentials
 Change these before deploying to production.
